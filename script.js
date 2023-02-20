@@ -63,7 +63,7 @@ function showArray() {
     sliderContainer.innerHTML = `
 
         <div class="slider-content">
-        <p class="info">${sliderArray[val].information}</p>
+        <h2 class="info">${sliderArray[val].information}</h2>
         <div class="other">
           <p class="name">${sliderArray[val].name}</p>
           <span class="job">${sliderArray[val].job}</span>
